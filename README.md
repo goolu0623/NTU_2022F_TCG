@@ -1,6 +1,7 @@
 # NTU-2022F-TCG
 
 ## hw1
+![ ](https://github.com/goolu0623/NTU_2022F_TCG/blob/main/hw1%20Illustration%20image.png)
 ### Description:
 This is a "borken puzzle" game extended from **15 puzzles**. All the rules are as same as 15 pizzles, except that there will be serveral puzzles on the board which is not movable.
 ### Requirements:
@@ -8,7 +9,7 @@ Implement the program to find the least number of slides so that the initial boa
 
 
 ## hw2
-
+![ ](https://github.com/goolu0623/NTU_2022F_TCG/blob/main/hw2%20Illustration%20image.png)
 ### Description:
 This is a modified-game extended from **Einstein Würfelt Nicht**. 
 
