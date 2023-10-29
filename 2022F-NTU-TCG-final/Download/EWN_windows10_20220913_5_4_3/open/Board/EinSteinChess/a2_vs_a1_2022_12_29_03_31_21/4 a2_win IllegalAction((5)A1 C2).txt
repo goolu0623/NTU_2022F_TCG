@@ -1,0 +1,103 @@
+* 3:31am Dec 29, 2022
+* a1 vs a2
+* order BR* board 5 6* time 240 0 0
+* ini C5 E5 D4 E4 D5 E3 C1 A1 B2 A2 B1 A3
+* 1. null
+* IllegalAction a2 wins
+* Comment 0 0
+0. 1672255903464
+Points   Total
+   1         0
+   2         0
+   3         0
+   4         0
+   5         1
+   6         0
+
+# 8 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get B 5 C5 E5 D4 E4 D5 E3 C1 A1 B2 A2 B1 A3
+A1 C2
+exit
+
+# 8 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get B 5 C5 E5 D4 E4 D5 E3 C1 A1 B2 A2 B1 A3
+
+The current board:
+
+<1>   B  E  A  0  0  
+<2>   D  C  0  0  0  
+<3>   F  0  0  0  6  
+<4>   0  0  0  3  4  
+<5>   0  0  1  5  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+generate start: 
+piece_num=8, piece_value= 1
+piece_num=11, piece_value= 3
+piece_num=7, piece_value= 9
+piece_num=10, piece_value= 3
+piece_num=9, piece_value= 3
+piece_num=12, piece_value= 9
+piece_num=6, piece_value= 9
+piece_num=3, piece_value= 3
+piece_num=4, piece_value= 3
+piece_num=1, piece_value= 9
+piece_num=5, piece_value= 3
+piece_num=2, piece_value= 1
+----------8  11  7  0  0 -----
+----------10  9  0  0  0 -----
+----------12  0  0  0  6 -----
+----------0  0  0  3  4 -----
+----------0  0  1  5  2 -----
+init board done
+this color = 1
+start search
+start search dep = 0
+, lim = 1
+----------8  11  7  0  0 -----
+----------10  9  0  0  0 -----
+----------12  0  0  0  6 -----
+----------0  0  0  3  4 -----
+----------0  0  1  5  2 -----
+red reach: 
+end search, score = 0
+rand= 23  17  5
+my  = 0  7  8
+============================
+My result:
+Blue piece 5: (A1) -> (C2)
+
+<1>   0  E  A  0  0  
+<2>   D  C  B  0  0  
+<3>   F  0  0  0  6  
+<4>   0  0  0  3  4  
+<5>   0  0  1  5  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+============================
+A1 C2
+exit
+
+###

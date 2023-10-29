@@ -1,0 +1,558 @@
+* 3:28am Dec 29, 2022
+* a2 vs a1
+* order RB* board 5 6* time 240 0 0
+* ini D5 D4 E4 E5 E3 C5 B1 B2 A2 A1 A3 C1
+* 1. R 5 A3 B4
+* 2. B 5 E3 E2
+* 3. R 1 B1 C2
+* 4. B 5 E2 D2
+* 5. R 2 B2 C3
+* 6. B 3 E4 E3
+* 7. R 6 C1 D2
+* 8. B 3 E3 D2
+* 9. R 5 B4 C5
+* 10. B 6 E5 D5
+* 11. R 1 C2 D3
+* 12. B 4 D5 D4
+* 13. R 3 A2 B3
+* 14. B 6 D4 C4
+* 15. R 5 C5 D5
+* 16. B 1 D2 C1
+* 17. R 6 D5 E5
+* ChessTotheCorner a2 wins
+* Comment 0 0
+0. 1672255702305
+1. 1672255702305
+2. 1672255702321
+3. 1672255707234
+4. 1672255707294
+5. 1672255707899
+6. 1672255707915
+7. 1672255708744
+8. 1672255708788
+9. 1672255709519
+10. 1672255709533
+11. 1672255710330
+12. 1672255710342
+13. 1672255711327
+14. 1672255711338
+15. 1672255711990
+16. 1672255712022
+17. 1672255712506
+Points   Total
+   1         3
+   2         1
+   3         3
+   4         1
+   5         5
+   6         4
+
+# 8 10 12 14 16 18 20 22 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get B 5 D5 D4 E4 E5 E3 C5 B1 B2 A2 A1 B4 C1
+E3 E2
+get B 5 D5 D4 E4 E5 E2 C5 C2 B2 A2 A1 B4 C1
+E2 D2
+get B 3 D5 D4 E4 E5 D2 C5 C2 C3 A2 A1 B4 C1
+E4 E3
+get B 3 D5 D4 E3 E5 0 C5 C2 C3 A2 A1 B4 D2
+E3 D2
+get B 6 D5 D4 D2 E5 0 0 C2 C3 A2 A1 C5 0
+E5 D5
+get B 4 0 D4 D2 D5 0 0 D3 C3 A2 A1 C5 0
+D5 D4
+get B 6 0 0 D2 D4 0 0 D3 C3 B3 A1 C5 0
+D4 C4
+get B 1 0 0 D2 C4 0 0 D3 C3 B3 A1 D5 0
+D2 C1
+exit
+
+# 8 10 12 14 16 18 20 22 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get B 5 D5 D4 E4 E5 E3 C5 B1 B2 A2 A1 B4 C1
+
+The current board:
+
+<1>   D  A  F  0  0  
+<2>   C  B  0  0  0  
+<3>   0  0  0  0  5  
+<4>   0  E  0  2  3  
+<5>   0  0  6  1  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+generate start: 
+piece_num=10, piece_value= 1
+piece_num=7, piece_value= 3
+piece_num=12, piece_value= 9
+piece_num=9, piece_value= 3
+piece_num=8, piece_value= 3
+piece_num=5, piece_value= 9
+piece_num=11, piece_value= 27
+piece_num=2, piece_value= 3
+piece_num=3, piece_value= 3
+piece_num=6, piece_value= 9
+piece_num=1, piece_value= 3
+piece_num=4, piece_value= 1
+----------10  7  12  0  0 -----
+----------9  8  0  0  0 -----
+----------0  0  0  0  5 -----
+----------0  11  0  2  3 -----
+----------0  0  6  1  4 -----
+init board done
+start search
+start search dep = 0
+, lim = 1
+----------10  7  12  0  0 -----
+----------9  8  0  0  0 -----
+----------0  0  0  0  5 -----
+----------0  11  0  2  3 -----
+----------0  0  6  1  4 -----
+red reach: 
+end search, score = 0
+rand= 14  9  5
+my  = 0  7  10
+============================
+My result:
+Blue piece 5: (E3) -> (E2)
+
+<1>   D  A  F  0  0  
+<2>   C  B  0  0  5  
+<3>   0  0  0  0  0  
+<4>   0  E  0  2  3  
+<5>   0  0  6  1  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+============================
+E3 E2
+get B 5 D5 D4 E4 E5 E2 C5 C2 B2 A2 A1 B4 C1
+
+The current board:
+
+<1>   D  0  F  0  0  
+<2>   C  B  A  0  5  
+<3>   0  0  0  0  0  
+<4>   0  E  0  2  3  
+<5>   0  0  6  1  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+generate start: 
+piece_num=10, piece_value= 1
+piece_num=12, piece_value= 9
+piece_num=9, piece_value= 3
+piece_num=8, piece_value= 3
+piece_num=7, piece_value= 9
+piece_num=5, piece_value= 27
+piece_num=11, piece_value= 27
+piece_num=2, piece_value= 3
+piece_num=3, piece_value= 3
+piece_num=6, piece_value= 9
+piece_num=1, piece_value= 3
+piece_num=4, piece_value= 1
+----------10  0  12  0  0 -----
+----------9  8  7  0  5 -----
+----------0  0  0  0  0 -----
+----------0  11  0  2  3 -----
+----------0  0  6  1  4 -----
+init board done
+start search
+start search dep = 0
+, lim = 1
+----------10  0  12  0  0 -----
+----------9  8  7  0  5 -----
+----------0  0  0  0  0 -----
+----------0  11  0  2  3 -----
+----------0  0  6  1  4 -----
+red reach: 
+end search, score = 0
+rand= 9  8  5
+my  = 0  7  10
+============================
+My result:
+Blue piece 5: (E2) -> (D2)
+
+<1>   D  0  F  0  0  
+<2>   C  B  A  5  0  
+<3>   0  0  0  0  0  
+<4>   0  E  0  2  3  
+<5>   0  0  6  1  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+============================
+E2 D2
+get B 3 D5 D4 E4 E5 D2 C5 C2 C3 A2 A1 B4 C1
+
+The current board:
+
+<1>   D  0  F  0  0  
+<2>   C  0  A  5  0  
+<3>   0  0  B  0  0  
+<4>   0  E  0  2  3  
+<5>   0  0  6  1  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+generate start: 
+piece_num=10, piece_value= 1
+piece_num=12, piece_value= 9
+piece_num=9, piece_value= 3
+piece_num=7, piece_value= 9
+piece_num=5, piece_value= 27
+piece_num=8, piece_value= 9
+piece_num=11, piece_value= 27
+piece_num=2, piece_value= 3
+piece_num=3, piece_value= 3
+piece_num=6, piece_value= 9
+piece_num=1, piece_value= 3
+piece_num=4, piece_value= 1
+----------10  0  12  0  0 -----
+----------9  0  7  5  0 -----
+----------0  0  8  0  0 -----
+----------0  11  0  2  3 -----
+----------0  0  6  1  4 -----
+init board done
+start search
+start search dep = 0
+, lim = 1
+----------10  0  12  0  0 -----
+----------9  0  7  5  0 -----
+----------0  0  8  0  0 -----
+----------0  11  0  2  3 -----
+----------0  0  6  1  4 -----
+red reach: 
+end search, score = 0
+rand= 19  14  3
+my  = 0  7  10
+============================
+My result:
+Blue piece 3: (E4) -> (E3)
+
+<1>   D  0  F  0  0  
+<2>   C  0  A  5  0  
+<3>   0  0  B  0  3  
+<4>   0  E  0  2  0  
+<5>   0  0  6  1  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+============================
+E4 E3
+get B 3 D5 D4 E3 E5 0 C5 C2 C3 A2 A1 B4 D2
+
+The current board:
+
+<1>   D  0  0  0  0  
+<2>   C  0  A  F  0  
+<3>   0  0  B  0  3  
+<4>   0  E  0  2  0  
+<5>   0  0  6  1  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 5
+The number of red pieces: 6
+generate start: 
+piece_num=10, piece_value= 1
+piece_num=9, piece_value= 3
+piece_num=7, piece_value= 9
+piece_num=12, piece_value= 27
+piece_num=8, piece_value= 9
+piece_num=3, piece_value= 9
+piece_num=11, piece_value= 27
+piece_num=2, piece_value= 3
+piece_num=6, piece_value= 9
+piece_num=1, piece_value= 3
+piece_num=4, piece_value= 1
+----------10  0  0  0  0 -----
+----------9  0  7  12  0 -----
+----------0  0  8  0  3 -----
+----------0  11  0  2  0 -----
+----------0  0  6  1  4 -----
+init board done
+start search
+start search dep = 0
+, lim = 1
+----------10  0  0  0  0 -----
+----------9  0  7  12  0 -----
+----------0  0  8  0  3 -----
+----------0  11  0  2  0 -----
+----------0  0  6  1  4 -----
+red reach: 
+end search, score = 0
+rand= 14  8  3
+my  = 0  7  10
+============================
+My result:
+Blue piece 3: (E3) -> (D2)
+
+<1>   D  0  0  0  0  
+<2>   C  0  A  3  0  
+<3>   0  0  B  0  0  
+<4>   0  E  0  2  0  
+<5>   0  0  6  1  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 5
+The number of red pieces: 5
+============================
+E3 D2
+get B 6 D5 D4 D2 E5 0 0 C2 C3 A2 A1 C5 0
+
+The current board:
+
+<1>   D  0  0  0  0  
+<2>   C  0  A  3  0  
+<3>   0  0  B  0  0  
+<4>   0  0  0  2  0  
+<5>   0  0  E  1  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 4
+The number of red pieces: 5
+generate start: 
+piece_num=10, piece_value= 1
+piece_num=9, piece_value= 3
+piece_num=7, piece_value= 9
+piece_num=3, piece_value= 27
+piece_num=8, piece_value= 9
+piece_num=2, piece_value= 3
+piece_num=11, piece_value= 81
+piece_num=1, piece_value= 3
+piece_num=4, piece_value= 1
+----------10  0  0  0  0 -----
+----------9  0  7  3  0 -----
+----------0  0  8  0  0 -----
+----------0  0  0  2  0 -----
+----------0  0  11  1  4 -----
+init board done
+start search
+start search dep = 0
+, lim = 1
+----------10  0  0  0  0 -----
+----------9  0  7  3  0 -----
+----------0  0  8  0  0 -----
+----------0  0  0  2  0 -----
+----------0  0  11  1  4 -----
+red reach: 
+end search, score = 0
+rand= 24  23  4
+my  = 0  7  10
+============================
+My result:
+Blue piece 4: (E5) -> (D5)
+
+<1>   D  0  0  0  0  
+<2>   C  0  A  3  0  
+<3>   0  0  B  0  0  
+<4>   0  0  0  2  0  
+<5>   0  0  E  4  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 3
+The number of red pieces: 5
+============================
+E5 D5
+get B 4 0 D4 D2 D5 0 0 D3 C3 A2 A1 C5 0
+
+The current board:
+
+<1>   D  0  0  0  0  
+<2>   C  0  0  3  0  
+<3>   0  0  B  A  0  
+<4>   0  0  0  2  0  
+<5>   0  0  E  4  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 3
+The number of red pieces: 5
+generate start: 
+piece_num=10, piece_value= 1
+piece_num=9, piece_value= 3
+piece_num=3, piece_value= 27
+piece_num=8, piece_value= 9
+piece_num=7, piece_value= 27
+piece_num=2, piece_value= 3
+piece_num=11, piece_value= 81
+piece_num=4, piece_value= 3
+----------10  0  0  0  0 -----
+----------9  0  0  3  0 -----
+----------0  0  8  7  0 -----
+----------0  0  0  2  0 -----
+----------0  0  11  4  0 -----
+init board done
+start search
+start search dep = 0
+, lim = 1
+----------10  0  0  0  0 -----
+----------9  0  0  3  0 -----
+----------0  0  8  7  0 -----
+----------0  0  0  2  0 -----
+----------0  0  11  4  0 -----
+red reach: 
+end search, score = 0
+rand= 23  18  4
+my  = 0  7  10
+============================
+My result:
+Blue piece 4: (D5) -> (D4)
+
+<1>   D  0  0  0  0  
+<2>   C  0  0  3  0  
+<3>   0  0  B  A  0  
+<4>   0  0  0  4  0  
+<5>   0  0  E  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 2
+The number of red pieces: 5
+============================
+D5 D4
+get B 6 0 0 D2 D4 0 0 D3 C3 B3 A1 C5 0
+
+The current board:
+
+<1>   D  0  0  0  0  
+<2>   0  0  0  3  0  
+<3>   0  C  B  A  0  
+<4>   0  0  0  4  0  
+<5>   0  0  E  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 2
+The number of red pieces: 5
+generate start: 
+piece_num=10, piece_value= 1
+piece_num=3, piece_value= 27
+piece_num=9, piece_value= 9
+piece_num=8, piece_value= 9
+piece_num=7, piece_value= 27
+piece_num=4, piece_value= 3
+piece_num=11, piece_value= 81
+----------10  0  0  0  0 -----
+----------0  0  0  3  0 -----
+----------0  9  8  7  0 -----
+----------0  0  0  4  0 -----
+----------0  0  11  0  0 -----
+init board done
+start search
+start search dep = 0
+, lim = 1
+----------10  0  0  0  0 -----
+----------0  0  0  3  0 -----
+----------0  9  8  7  0 -----
+----------0  0  0  4  0 -----
+----------0  0  11  0  0 -----
+red reach: 
+end search, score = 0
+rand= 18  17  4
+my  = 0  7  10
+============================
+My result:
+Blue piece 4: (D4) -> (C4)
+
+<1>   D  0  0  0  0  
+<2>   0  0  0  3  0  
+<3>   0  C  B  A  0  
+<4>   0  0  4  0  0  
+<5>   0  0  E  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 2
+The number of red pieces: 5
+============================
+D4 C4
+get B 1 0 0 D2 C4 0 0 D3 C3 B3 A1 D5 0
+
+The current board:
+
+<1>   D  0  0  0  0  
+<2>   0  0  0  3  0  
+<3>   0  C  B  A  0  
+<4>   0  0  4  0  0  
+<5>   0  0  0  E  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 2
+The number of red pieces: 5
+generate start: 
+piece_num=10, piece_value= 1
+piece_num=3, piece_value= 27
+piece_num=9, piece_value= 9
+piece_num=8, piece_value= 9
+piece_num=7, piece_value= 27
+piece_num=4, piece_value= 9
+piece_num=11, piece_value= 81
+----------10  0  0  0  0 -----
+----------0  0  0  3  0 -----
+----------0  9  8  7  0 -----
+----------0  0  4  0  0 -----
+----------0  0  0  11  0 -----
+init board done
+start search
+start search dep = 0
+, lim = 1
+----------10  0  0  0  0 -----
+----------0  0  0  3  0 -----
+----------0  9  8  7  0 -----
+----------0  0  4  0  0 -----
+----------0  0  0  11  0 -----
+red reach: 
+end search, score = 0
+rand= 8  2  3
+my  = 0  7  10
+============================
+My result:
+Blue piece 3: (D2) -> (C1)
+
+<1>   D  0  3  0  0  
+<2>   0  0  0  0  0  
+<3>   0  C  B  A  0  
+<4>   0  0  4  0  0  
+<5>   0  0  0  E  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 2
+The number of red pieces: 5
+============================
+D2 C1
+exit
+
+###

@@ -1,0 +1,907 @@
+* 6:28am Dec 29, 2022
+* blue vs red
+* order BR* board 5 6* time 240 0 0
+* ini E3 E4 D4 D5 E5 C5 A3 A2 B2 B1 A1 C1
+* 1. B 4 D5 D4
+* 2. R 2 A2 B3
+* 3. B 5 E5 D4
+* 4. R 5 A1 A2
+* 5. B 5 D4 C3
+* 6. R 3 B2 C3
+* 7. B 6 C5 B4
+* 8. R 5 A2 B2
+* 9. B 3 B4 B3
+* 10. R 1 A3 B4
+* 11. B 3 B3 B2
+* 12. R 3 C3 D4
+* 13. B 1 E3 D3
+* 14. R 3 D4 E4
+* 15. B 6 B2 A1
+* ChessTotheCorner blue wins
+* Comment 0 0
+0. 1672266496745
+1. 1672266496745
+2. 1672266496807
+3. 1672266496870
+4. 1672266496932
+5. 1672266496995
+6. 1672266497057
+7. 1672266497119
+8. 1672266497180
+9. 1672266497245
+10. 1672266497305
+11. 1672266497367
+12. 1672266497429
+13. 1672266497491
+14. 1672266497553
+15. 1672266497615
+Points   Total
+   1         2
+   2         1
+   3         5
+   4         1
+   5         4
+   6         2
+
+# 8 10 12 14 16 18 20 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get R 2 E3 E4 0 D4 E5 C5 A3 A2 B2 B1 A1 C1
+A2 B3
+get R 5 E3 E4 0 0 D4 C5 A3 B3 B2 B1 A1 C1
+A1 A2
+get R 3 E3 E4 0 0 C3 C5 A3 B3 B2 B1 A2 C1
+B2 C3
+get R 5 E3 E4 0 0 0 B4 A3 B3 C3 B1 A2 C1
+A2 B2
+get R 1 E3 E4 0 0 0 B3 A3 0 C3 B1 B2 C1
+A3 B4
+get R 3 E3 E4 0 0 0 B2 B4 0 C3 B1 0 C1
+C3 D4
+get R 3 D3 E4 0 0 0 B2 B4 0 D4 B1 0 C1
+D4 E4
+exit
+
+# 8 10 12 14 16 18 20 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get R 2 E3 E4 0 D4 E5 C5 A3 A2 B2 B1 A1 C1
+
+The current board:
+
+<1>   E  D  F  0  0  
+<2>   B  C  0  0  0  
+<3>   A  0  0  0  1  
+<4>   0  0  0  4  2  
+<5>   0  0  6  0  5  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 5
+The number of red pieces: 6
+generate start: 
+piece_num=11, piece_value= 1
+piece_num=10, piece_value= 15
+piece_num=12, piece_value= 225
+piece_num=8, piece_value= 15
+piece_num=9, piece_value= 15
+piece_num=7, piece_value= 225
+piece_num=1, piece_value= 1
+piece_num=4, piece_value= 15
+piece_num=2, piece_value= 1
+piece_num=6, piece_value= 1
+piece_num=5, piece_value= 1
+----------11  10  12  0  0 -----
+----------8  9  0  0  0 -----
+----------7  0  0  0  1 -----
+----------0  0  0  4  2 -----
+----------0  0  6  0  5 -----
+init board done
+this color = 0
+start search
+start search dep = 0, lim = 1
+red
+this->dice = 2
+this->dice exist
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 706.000000, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 706.000000, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 706.000000, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 706.000000, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 706.000000, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 706.000000, blue_a = 5.833333, threaten = 0.000000
+now undo move from (1,0) to (2,1)
+eatnum = 0
+now move from (1,0) to (2,0)
+eatnum = 7
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 400.833333, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 400.833333, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 400.833333, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 400.833333, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 400.833333, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 400.833333, blue_a = 5.833333, threaten = 0.000000
+now undo move from (1,0) to (2,0)
+eatnum = 7
+now move from (1,0) to (1,1)
+eatnum = 9
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 200.500000, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 200.500000, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 200.500000, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 200.500000, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 200.500000, blue_a = 5.833333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 200.500000, blue_a = 5.833333, threaten = 0.000000
+now undo move from (1,0) to (1,1)
+eatnum = 9
+end search, score = 676.833
+rand= 5  6  8
+my  = 5  11  8
+org(r,c) = (1,0), tar(r,c) = (2,1), dice = 2
+============================
+My result:
+Red piece 2: (A2) -> (B3)
+
+<1>   E  D  F  0  0  
+<2>   0  C  0  0  0  
+<3>   A  B  0  0  1  
+<4>   0  0  0  4  2  
+<5>   0  0  6  0  5  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 5
+The number of red pieces: 6
+============================
+A2 B3
+get R 5 E3 E4 0 0 D4 C5 A3 B3 B2 B1 A1 C1
+
+The current board:
+
+<1>   E  D  F  0  0  
+<2>   0  C  0  0  0  
+<3>   A  B  0  0  1  
+<4>   0  0  0  5  2  
+<5>   0  0  6  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 4
+The number of red pieces: 6
+generate start: 
+piece_num=11, piece_value= 1
+piece_num=10, piece_value= 15
+piece_num=12, piece_value= 225
+piece_num=9, piece_value= 15
+piece_num=7, piece_value= 225
+piece_num=8, piece_value= 225
+piece_num=1, piece_value= 1
+piece_num=5, piece_value= 15
+piece_num=2, piece_value= 1
+piece_num=6, piece_value= 1
+----------11  10  12  0  0 -----
+----------0  9  0  0  0 -----
+----------7  8  0  0  1 -----
+----------0  0  0  5  2 -----
+----------0  0  6  0  0 -----
+init board done
+this color = 0
+start search
+start search dep = 0, lim = 1
+red
+this->dice = 5
+this->dice exist
+now move from (0,0) to (1,1)
+eatnum = 9
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 277.500000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 277.500000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 277.500000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 277.500000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 277.500000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 277.500000, blue_a = 8.333333, threaten = 0.000000
+now undo move from (0,0) to (1,1)
+eatnum = 9
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 720.000000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 720.000000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 720.000000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 720.000000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 720.000000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 720.000000, blue_a = 8.333333, threaten = 0.000000
+now undo move from (0,0) to (1,0)
+eatnum = 0
+now move from (0,0) to (0,1)
+eatnum = 10
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 312.500000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 312.500000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 312.500000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 312.500000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 312.500000, blue_a = 8.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 312.500000, blue_a = 8.333333, threaten = 0.000000
+now undo move from (0,0) to (0,1)
+eatnum = 10
+end search, score = 686.667
+rand= 0  1  11
+my  = 0  5  11
+org(r,c) = (0,0), tar(r,c) = (1,0), dice = 5
+============================
+My result:
+Red piece 5: (A1) -> (A2)
+
+<1>   0  D  F  0  0  
+<2>   E  C  0  0  0  
+<3>   A  B  0  0  1  
+<4>   0  0  0  5  2  
+<5>   0  0  6  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 4
+The number of red pieces: 6
+============================
+A1 A2
+get R 3 E3 E4 0 0 C3 C5 A3 B3 B2 B1 A2 C1
+
+The current board:
+
+<1>   0  D  F  0  0  
+<2>   E  C  0  0  0  
+<3>   A  B  5  0  1  
+<4>   0  0  0  0  2  
+<5>   0  0  6  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 4
+The number of red pieces: 6
+generate start: 
+piece_num=10, piece_value= 15
+piece_num=12, piece_value= 225
+piece_num=11, piece_value= 15
+piece_num=9, piece_value= 15
+piece_num=7, piece_value= 225
+piece_num=8, piece_value= 225
+piece_num=5, piece_value= 225
+piece_num=1, piece_value= 1
+piece_num=2, piece_value= 1
+piece_num=6, piece_value= 1
+----------0  10  12  0  0 -----
+----------11  9  0  0  0 -----
+----------7  8  5  0  1 -----
+----------0  0  0  0  2 -----
+----------0  0  6  0  0 -----
+init board done
+this color = 0
+start search
+start search dep = 0, lim = 1
+red
+this->dice = 3
+this->dice exist
+now move from (1,1) to (2,2)
+eatnum = 5
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 1.500000, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 1.500000, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 1.500000, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 1.500000, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 1.500000, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 1.500000, threaten = 0.000000
+now undo move from (1,1) to (2,2)
+eatnum = 5
+now move from (1,1) to (2,1)
+eatnum = 8
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 113.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 113.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 113.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 113.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 113.333333, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 113.333333, threaten = 0.000000
+now undo move from (1,1) to (2,1)
+eatnum = 8
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 113.333333, threaten = 75.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 113.333333, threaten = 75.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 113.333333, threaten = 75.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 113.333333, threaten = 75.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 113.333333, threaten = 75.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 113.333333, threaten = 75.000000
+now undo move from (1,1) to (1,2)
+eatnum = 0
+end search, score = 925.5
+rand= 6  11  9
+my  = 6  12  9
+org(r,c) = (1,1), tar(r,c) = (2,2), dice = 3
+============================
+My result:
+Red piece 3: (B2) -> (C3)
+
+<1>   0  D  F  0  0  
+<2>   E  0  0  0  0  
+<3>   A  B  C  0  1  
+<4>   0  0  0  0  2  
+<5>   0  0  6  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 3
+The number of red pieces: 6
+============================
+B2 C3
+get R 5 E3 E4 0 0 0 B4 A3 B3 C3 B1 A2 C1
+
+The current board:
+
+<1>   0  D  F  0  0  
+<2>   E  0  0  0  0  
+<3>   A  B  C  0  1  
+<4>   0  6  0  0  2  
+<5>   0  0  0  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 3
+The number of red pieces: 6
+generate start: 
+piece_num=10, piece_value= 15
+piece_num=12, piece_value= 225
+piece_num=11, piece_value= 15
+piece_num=7, piece_value= 225
+piece_num=8, piece_value= 225
+piece_num=9, piece_value= 225
+piece_num=1, piece_value= 1
+piece_num=6, piece_value= 15
+piece_num=2, piece_value= 1
+----------0  10  12  0  0 -----
+----------11  0  0  0  0 -----
+----------7  8  9  0  1 -----
+----------0  6  0  0  2 -----
+----------0  0  0  0  0 -----
+init board done
+this color = 0
+start search
+start search dep = 0, lim = 1
+red
+this->dice = 5
+this->dice exist
+now move from (1,0) to (2,1)
+eatnum = 8
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 497.500000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 497.500000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 497.500000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 497.500000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 497.500000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 497.500000, blue_a = 10.833333, threaten = 150.000000
+now undo move from (1,0) to (2,1)
+eatnum = 8
+now move from (1,0) to (2,0)
+eatnum = 7
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 762.500000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 762.500000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 762.500000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 762.500000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 762.500000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 762.500000, blue_a = 10.833333, threaten = 150.000000
+now undo move from (1,0) to (2,0)
+eatnum = 7
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 10.833333, threaten = 150.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 930.000000, blue_a = 10.833333, threaten = 150.000000
+now undo move from (1,0) to (1,1)
+eatnum = 0
+end search, score = 747.5
+rand= 5  11  11
+my  = 5  6  11
+org(r,c) = (1,0), tar(r,c) = (1,1), dice = 5
+============================
+My result:
+Red piece 5: (A2) -> (B2)
+
+<1>   0  D  F  0  0  
+<2>   0  E  0  0  0  
+<3>   A  B  C  0  1  
+<4>   0  6  0  0  2  
+<5>   0  0  0  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 3
+The number of red pieces: 6
+============================
+A2 B2
+get R 1 E3 E4 0 0 0 B3 A3 0 C3 B1 B2 C1
+
+The current board:
+
+<1>   0  D  F  0  0  
+<2>   0  E  0  0  0  
+<3>   A  6  C  0  1  
+<4>   0  0  0  0  2  
+<5>   0  0  0  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 3
+The number of red pieces: 5
+generate start: 
+piece_num=10, piece_value= 15
+piece_num=12, piece_value= 225
+piece_num=11, piece_value= 15
+piece_num=7, piece_value= 225
+piece_num=6, piece_value= 225
+piece_num=9, piece_value= 225
+piece_num=1, piece_value= 1
+piece_num=2, piece_value= 1
+----------0  10  12  0  0 -----
+----------0  11  0  0  0 -----
+----------7  6  9  0  1 -----
+----------0  0  0  0  2 -----
+----------0  0  0  0  0 -----
+init board done
+this color = 0
+start search
+start search dep = 0, lim = 1
+red
+this->dice = 1
+this->dice exist
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+now undo move from (2,0) to (3,1)
+eatnum = 0
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 882.500000, blue_a = 150.833333, threaten = 5.000000
+now undo move from (2,0) to (3,0)
+eatnum = 0
+now move from (2,0) to (2,1)
+eatnum = 6
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 1.000000, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 1.000000, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 1.000000, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 1.000000, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 1.000000, threaten = 0.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 357.500000, blue_a = 1.000000, threaten = 0.000000
+now undo move from (2,0) to (2,1)
+eatnum = 6
+end search, score = 425
+rand= 10  15  7
+my  = 10  16  7
+org(r,c) = (2,0), tar(r,c) = (3,1), dice = 1
+============================
+My result:
+Red piece 1: (A3) -> (B4)
+
+<1>   0  D  F  0  0  
+<2>   0  E  0  0  0  
+<3>   0  6  C  0  1  
+<4>   0  A  0  0  2  
+<5>   0  0  0  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 3
+The number of red pieces: 5
+============================
+A3 B4
+get R 3 E3 E4 0 0 0 B2 B4 0 C3 B1 0 C1
+
+The current board:
+
+<1>   0  D  F  0  0  
+<2>   0  6  0  0  0  
+<3>   0  0  C  0  1  
+<4>   0  A  0  0  2  
+<5>   0  0  0  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 3
+The number of red pieces: 4
+generate start: 
+piece_num=10, piece_value= 15
+piece_num=12, piece_value= 225
+piece_num=6, piece_value= 3375
+piece_num=9, piece_value= 225
+piece_num=1, piece_value= 1
+piece_num=7, piece_value= 3375
+piece_num=2, piece_value= 1
+----------0  10  12  0  0 -----
+----------0  6  0  0  0 -----
+----------0  0  9  0  1 -----
+----------0  7  0  0  2 -----
+----------0  0  0  0  0 -----
+init board done
+this color = 0
+start search
+start search dep = 0, lim = 1
+red
+this->dice = 3
+this->dice exist
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+now undo move from (2,2) to (3,3)
+eatnum = 0
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 5.000000
+now undo move from (2,2) to (3,2)
+eatnum = 0
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 2255.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 2255.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 2255.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 2255.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 2255.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 1730.000000, blue_a = 2250.833333, threaten = 2255.000000
+now undo move from (2,2) to (2,3)
+eatnum = 0
+end search, score = -5027.5
+rand= 12  17  9
+my  = 12  18  9
+org(r,c) = (2,2), tar(r,c) = (3,3), dice = 3
+============================
+My result:
+Red piece 3: (C3) -> (D4)
+
+<1>   0  D  F  0  0  
+<2>   0  6  0  0  0  
+<3>   0  0  0  0  1  
+<4>   0  A  0  C  2  
+<5>   0  0  0  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 3
+The number of red pieces: 4
+============================
+C3 D4
+get R 3 D3 E4 0 0 0 B2 B4 0 D4 B1 0 C1
+
+The current board:
+
+<1>   0  D  F  0  0  
+<2>   0  6  0  0  0  
+<3>   0  0  0  1  0  
+<4>   0  A  0  C  2  
+<5>   0  0  0  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 3
+The number of red pieces: 4
+generate start: 
+piece_num=10, piece_value= 15
+piece_num=12, piece_value= 225
+piece_num=6, piece_value= 3375
+piece_num=1, piece_value= 15
+piece_num=7, piece_value= 3375
+piece_num=9, piece_value= 3375
+piece_num=2, piece_value= 1
+----------0  10  12  0  0 -----
+----------0  6  0  0  0 -----
+----------0  0  0  1  0 -----
+----------0  7  0  9  2 -----
+----------0  0  0  0  0 -----
+init board done
+this color = 0
+start search
+start search dep = 0, lim = 1
+red
+this->dice = 3
+this->dice exist
+start search dep = 1, lim = 1
+red reach: 
+start search dep = 1, lim = 1
+red reach: 
+start search dep = 1, lim = 1
+red reach: 
+start search dep = 1, lim = 1
+red reach: 
+start search dep = 1, lim = 1
+red reach: 
+start search dep = 1, lim = 1
+red reach: 
+now undo move from (3,3) to (4,4)
+eatnum = 0
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2253.166667, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2253.166667, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2253.166667, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2253.166667, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2253.166667, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2253.166667, threaten = 5.000000
+now undo move from (3,3) to (4,3)
+eatnum = 0
+now move from (3,3) to (3,4)
+eatnum = 2
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2825.000000, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2825.000000, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2825.000000, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2825.000000, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2825.000000, threaten = 5.000000
+start search dep = 1, lim = 1
+start evaluate: 
+evaluate red_a = 17480.000000, blue_a = 2825.000000, threaten = 5.000000
+now undo move from (3,3) to (3,4)
+eatnum = 2
+end search, score = 11825
+rand= 18  24  9
+my  = 18  19  9
+org(r,c) = (3,3), tar(r,c) = (3,4), dice = 3
+============================
+My result:
+Red piece 3: (D4) -> (E4)
+
+<1>   0  D  F  0  0  
+<2>   0  6  0  0  0  
+<3>   0  0  0  1  0  
+<4>   0  A  0  0  C  
+<5>   0  0  0  0  0  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 2
+The number of red pieces: 4
+============================
+D4 E4
+exit
+
+###

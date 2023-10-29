@@ -1,0 +1,260 @@
+* 2:29am Dec 29, 2022
+* a2 vs a1
+* order RB* board 5 6* time 240 0 0
+* ini D5 E5 C5 E4 D4 E3 B1 A1 C1 A2 B2 A3
+* 1. R 5 B2 C3
+* 2. B 3 C5 B4
+* 3. R 1 B1 C2
+* 4. B 5 D4 D3
+* 5. R 4 A2 B3
+* 6. B 5 D3 C3
+* 7. R 4 B3 C4
+* 8. B 4 E4 D3
+* 9. R 5 C4 D5
+* 10. B 4 D3 C3
+* 11. R 5 D5 E5
+* ChessTotheCorner a2 wins
+* Comment 0 0
+0. 1672252162008
+1. 1672252162008
+2. 1672252162076
+3. 1672252171498
+4. 1672252171525
+5. 1672252172156
+6. 1672252172213
+7. 1672252172727
+8. 1672252172774
+9. 1672252174060
+10. 1672252174083
+11. 1672252174829
+Points   Total
+   1         1
+   2         0
+   3         1
+   4         4
+   5         5
+   6         0
+
+# 8 10 12 14 16 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get B 3 D5 E5 C5 E4 D4 E3 B1 A1 C1 A2 C3 A3
+C5 B4
+get B 5 D5 E5 B4 E4 D4 E3 C2 A1 C1 A2 C3 A3
+D4 D3
+get B 5 D5 E5 B4 E4 D3 E3 C2 A1 C1 B3 C3 A3
+D3 C3
+get B 4 D5 E5 B4 E4 C3 E3 C2 A1 C1 C4 0 A3
+E4 D3
+get B 4 0 E5 B4 D3 C3 E3 C2 A1 C1 D5 0 A3
+D3 C3
+exit
+
+# 8 10 12 14 16 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get B 3 D5 E5 C5 E4 D4 E3 B1 A1 C1 A2 C3 A3
+
+The current board:
+
+<1>   B  A  C  0  0  
+<2>   D  0  0  0  0  
+<3>   F  0  E  0  6  
+<4>   0  0  0  5  4  
+<5>   0  0  3  1  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+generate start: 
+----------8  7  9  0  0 -----
+----------10  0  0  0  0 -----
+----------12  0  11  0  6 -----
+----------0  0  0  5  4 -----
+----------0  0  3  1  2 -----
+init board done: 
+start search: 
+============================
+My result:
+Blue piece 3: (C5) -> (B4)
+
+<1>   B  A  C  0  0  
+<2>   D  0  0  0  0  
+<3>   F  0  E  0  6  
+<4>   0  3  0  5  4  
+<5>   0  0  0  1  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+============================
+C5 B4
+get B 5 D5 E5 B4 E4 D4 E3 C2 A1 C1 A2 C3 A3
+
+The current board:
+
+<1>   B  0  C  0  0  
+<2>   D  0  A  0  0  
+<3>   F  0  E  0  6  
+<4>   0  3  0  5  4  
+<5>   0  0  0  1  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+generate start: 
+----------8  0  9  0  0 -----
+----------10  0  7  0  0 -----
+----------12  0  11  0  6 -----
+----------0  3  0  5  4 -----
+----------0  0  0  1  2 -----
+init board done: 
+start search: 
+============================
+My result:
+Blue piece 5: (D4) -> (D3)
+
+<1>   B  0  C  0  0  
+<2>   D  0  A  0  0  
+<3>   F  0  E  5  6  
+<4>   0  3  0  0  4  
+<5>   0  0  0  1  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+============================
+D4 D3
+get B 5 D5 E5 B4 E4 D3 E3 C2 A1 C1 B3 C3 A3
+
+The current board:
+
+<1>   B  0  C  0  0  
+<2>   0  0  A  0  0  
+<3>   F  D  E  5  6  
+<4>   0  3  0  0  4  
+<5>   0  0  0  1  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+generate start: 
+----------8  0  9  0  0 -----
+----------0  0  7  0  0 -----
+----------12  10  11  5  6 -----
+----------0  3  0  0  4 -----
+----------0  0  0  1  2 -----
+init board done: 
+start search: 
+============================
+My result:
+Blue piece 5: (D3) -> (C3)
+
+<1>   B  0  C  0  0  
+<2>   0  0  A  0  0  
+<3>   F  D  5  0  6  
+<4>   0  3  0  0  4  
+<5>   0  0  0  1  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+============================
+D3 C3
+get B 4 D5 E5 B4 E4 C3 E3 C2 A1 C1 C4 0 A3
+
+The current board:
+
+<1>   B  0  C  0  0  
+<2>   0  0  A  0  0  
+<3>   F  0  5  0  6  
+<4>   0  3  D  0  4  
+<5>   0  0  0  1  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+generate start: 
+----------8  0  9  0  0 -----
+----------0  0  7  0  0 -----
+----------12  0  5  0  6 -----
+----------0  3  10  0  4 -----
+----------0  0  0  1  2 -----
+init board done: 
+start search: 
+============================
+My result:
+Blue piece 4: (E4) -> (D3)
+
+<1>   B  0  C  0  0  
+<2>   0  0  A  0  0  
+<3>   F  0  5  4  6  
+<4>   0  3  D  0  0  
+<5>   0  0  0  1  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+============================
+E4 D3
+get B 4 0 E5 B4 D3 C3 E3 C2 A1 C1 D5 0 A3
+
+The current board:
+
+<1>   B  0  C  0  0  
+<2>   0  0  A  0  0  
+<3>   F  0  5  4  6  
+<4>   0  3  0  0  0  
+<5>   0  0  0  D  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 5
+The number of red pieces: 5
+generate start: 
+----------8  0  9  0  0 -----
+----------0  0  7  0  0 -----
+----------12  0  5  4  6 -----
+----------0  3  0  0  0 -----
+----------0  0  0  10  2 -----
+init board done: 
+start search: 
+============================
+My result:
+Blue piece 4: (D3) -> (C3)
+
+<1>   B  0  C  0  0  
+<2>   0  0  A  0  0  
+<3>   F  0  4  0  6  
+<4>   0  3  0  0  0  
+<5>   0  0  0  D  2  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 4
+The number of red pieces: 5
+============================
+D3 C3
+exit
+
+###

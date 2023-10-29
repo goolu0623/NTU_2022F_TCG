@@ -1,0 +1,362 @@
+This is TEMPORARILY file. You can use it for DEBUG.
+* 2:47am Dec 29, 2022
+a2 vs a1
+* order RB
+* board 5 6
+* time 240 0 0
+* ini E3 E4 D5 E5 D4 C5 A3 A2 B1 A1 B2 C1
+* 1. R 4 A1 B2
+* 2. B 6 C5 C4
+* 3. R 3 B1 C2
+* 4. B 3 D5 C5
+* 5. R 3 C2 D3
+* 6. B 3 C5 B5
+* 7. R 4 B2 C3
+* 8. B 5 D4 C3
+* 9. R 3 D3 E4
+* Comment 0 0
+0. 1672253253596
+1. 1672253253596
+2. 1672253253649
+3. 1672253271921
+4. 1672253271949
+5. 1672253277355
+6. 1672253277414
+7. 1672253282005
+8. 1672253282069
+9. 1672253288552
+
+Points   Total
+   00      0000
+   01      0000
+   02      0000
+   03      0005
+   04      0002
+   05      0001
+# 8 10 12 14 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get B 6 E3 E4 D5 E5 D4 C5 A3 A2 B1 B2 0 C1
+C5 C4
+get B 3 E3 E4 D5 E5 D4 C4 A3 A2 C2 B2 0 C1
+D5 C5
+get B 3 E3 E4 C5 E5 D4 C4 A3 A2 D3 B2 0 C1
+C5 B5
+get B 5 E3 E4 B5 E5 D4 C4 A3 A2 D3 C3 0 C1
+D4 C3
+# 8 10 12 14 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get B 6 E3 E4 D5 E5 D4 C5 A3 A2 B1 B2 0 C1
+
+The current board:
+
+<1>   0  C  F  0  0  
+<2>   B  D  0  0  0  
+<3>   A  0  0  0  1  
+<4>   0  0  0  5  2  
+<5>   0  0  6  3  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+generate start: 
+----------0  9  12  0  0 -----
+----------8  10  0  0  0 -----
+----------7  0  0  0  1 -----
+----------0  0  0  5  2 -----
+----------0  0  6  3  4 -----
+init board done: 
+start search: 
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 20.833333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 20.833333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 20.833333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 20.833333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 20.833333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32887.000000, threaten = 20.833333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32787.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32787.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32787.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32787.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32787.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 32787.000000, threaten = 0.000000
+end search   score:-10945.666667
+============================
+My result:
+Blue piece 6: (C5) -> (C4)
+
+<1>   0  C  F  0  0  
+<2>   B  D  0  0  0  
+<3>   A  0  0  0  1  
+<4>   0  0  6  5  2  
+<5>   0  0  0  3  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+============================
+C5 C4
+get B 3 E3 E4 D5 E5 D4 C4 A3 A2 C2 B2 0 C1
+
+The current board:
+
+<1>   0  0  F  0  0  
+<2>   B  D  C  0  0  
+<3>   A  0  0  0  1  
+<4>   0  0  6  5  2  
+<5>   0  0  0  3  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+generate start: 
+----------0  0  12  0  0 -----
+----------8  10  9  0  0 -----
+----------7  0  0  0  1 -----
+----------0  0  6  5  2 -----
+----------0  0  0  3  4 -----
+init board done: 
+start search: 
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225260.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225260.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225260.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225260.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225260.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225260.000000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 148220590.166667, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 148220590.166667, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 148220590.166667, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 148220590.166667, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 148220590.166667, threaten = 0.000000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 148220590.166667, threaten = 0.000000
+end search   score:-5481.166667
+============================
+My result:
+Blue piece 3: (D5) -> (C5)
+
+<1>   0  0  F  0  0  
+<2>   B  D  C  0  0  
+<3>   A  0  0  0  1  
+<4>   0  0  6  5  2  
+<5>   0  0  3  0  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+============================
+D5 C5
+get B 3 E3 E4 C5 E5 D4 C4 A3 A2 D3 B2 0 C1
+
+The current board:
+
+<1>   0  0  F  0  0  
+<2>   B  D  0  0  0  
+<3>   A  0  0  C  1  
+<4>   0  0  6  5  2  
+<5>   0  0  3  0  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+generate start: 
+----------0  0  12  0  0 -----
+----------8  10  0  0  0 -----
+----------7  0  0  9  1 -----
+----------0  0  6  5  2 -----
+----------0  0  3  0  4 -----
+init board done: 
+start search: 
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5460.333333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5460.333333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5460.333333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5460.333333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5460.333333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5460.333333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5481.166667
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5481.166667
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5481.166667
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5481.166667
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5481.166667
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 889225360.000000, threaten = 5481.166667
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5460.333333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5460.333333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5460.333333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5460.333333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5460.333333
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5460.333333
+end search   score:-20.833333
+============================
+My result:
+Blue piece 3: (C5) -> (B5)
+
+<1>   0  0  F  0  0  
+<2>   B  D  0  0  0  
+<3>   A  0  0  C  1  
+<4>   0  0  6  5  2  
+<5>   0  3  0  0  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+============================
+C5 B5
+get B 5 E3 E4 B5 E5 D4 C4 A3 A2 D3 C3 0 C1
+
+The current board:
+
+<1>   0  0  F  0  0  
+<2>   B  0  0  0  0  
+<3>   A  0  D  C  1  
+<4>   0  0  6  5  2  
+<5>   0  3  0  0  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+generate start: 
+----------0  0  12  0  0 -----
+----------8  0  0  0  0 -----
+----------7  0  10  9  1 -----
+----------0  0  6  5  2 -----
+----------0  3  0  0  4 -----
+init board done: 
+start search: 
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5464.500000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5464.500000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5464.500000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5464.500000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5464.500000
+start evaluate: 
+evaluate red_a = 21841.333333, blue_a = 27322.500000, threaten = 5464.500000
+start evaluate: 
+evaluate red_a = 16381.000000, blue_a = 889225260.000000, threaten = 10920.666667
+start evaluate: 
+evaluate red_a = 16381.000000, blue_a = 889225260.000000, threaten = 10920.666667
+start evaluate: 
+evaluate red_a = 16381.000000, blue_a = 889225260.000000, threaten = 10920.666667
+start evaluate: 
+evaluate red_a = 16381.000000, blue_a = 889225260.000000, threaten = 10920.666667
+start evaluate: 
+evaluate red_a = 16381.000000, blue_a = 889225260.000000, threaten = 10920.666667
+start evaluate: 
+evaluate red_a = 16381.000000, blue_a = 889225260.000000, threaten = 10920.666667
+start evaluate: 
+evaluate red_a = 0.000000, blue_a = 889225260.000000, threaten = 296397491.000000
+start evaluate: 
+evaluate red_a = 0.000000, blue_a = 889225260.000000, threaten = 296397491.000000
+start evaluate: 
+evaluate red_a = 0.000000, blue_a = 889225260.000000, threaten = 296397491.000000
+start evaluate: 
+evaluate red_a = 0.000000, blue_a = 889225260.000000, threaten = 296397491.000000
+start evaluate: 
+evaluate red_a = 0.000000, blue_a = 889225260.000000, threaten = 296397491.000000
+start evaluate: 
+evaluate red_a = 0.000000, blue_a = 889225260.000000, threaten = 296397491.000000
+end search   score:-16.666667
+============================
+My result:
+Blue piece 5: (D4) -> (C3)
+
+<1>   0  0  F  0  0  
+<2>   B  0  0  0  0  
+<3>   A  0  5  C  1  
+<4>   0  0  6  0  2  
+<5>   0  3  0  0  4  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 4
+============================
+D4 C3
+###

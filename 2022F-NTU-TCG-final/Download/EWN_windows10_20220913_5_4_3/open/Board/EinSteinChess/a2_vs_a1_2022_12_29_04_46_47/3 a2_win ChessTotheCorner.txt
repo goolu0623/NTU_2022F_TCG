@@ -1,0 +1,1801 @@
+* 4:47am Dec 29, 2022
+* a2 vs a1
+* order RB* board 5 6* time 240 0 0
+* ini E5 E4 D4 C5 E3 D5 A1 A2 B2 C1 A3 B1
+* 1. R 3 B2 C3
+* 2. B 4 C5 B5
+* 3. R 6 B1 C2
+* 4. B 3 D4 C3
+* 5. R 5 A3 B4
+* 6. B 4 B5 B4
+* 7. R 5 C2 D3
+* 8. B 3 C3 B2
+* 9. R 6 D3 E4
+* 10. B 6 D5 C4
+* 11. R 5 E4 E5
+* ChessTotheCorner a2 wins
+* Comment 0 0
+0. 1672260434127
+1. 1672260434127
+2. 1672260434148
+3. 1672260435066
+4. 1672260435081
+5. 1672260435713
+6. 1672260435762
+7. 1672260438638
+8. 1672260438691
+9. 1672260441246
+10. 1672260441305
+11. 1672260442602
+Points   Total
+   1         0
+   2         0
+   3         3
+   4         2
+   5         3
+   6         3
+
+# 8 10 12 14 16 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get B 4 E5 E4 D4 C5 E3 D5 A1 A2 C3 C1 A3 B1
+C5 B5
+get B 3 E5 E4 D4 B5 E3 D5 A1 A2 C3 C1 A3 C2
+D4 C3
+get B 4 E5 E4 C3 B5 E3 D5 A1 A2 0 C1 B4 C2
+B5 B4
+get B 3 E5 E4 C3 B4 E3 D5 A1 A2 0 C1 0 D3
+C3 B2
+get B 6 E5 0 B2 B4 E3 D5 A1 A2 0 C1 0 E4
+D5 C4
+exit
+
+# 8 10 12 14 16 #
+name
+r10922150:AI
+version
+1.0.0
+time_setting 240 0 0
+1
+board_setting 5 6 2
+1
+get B 4 E5 E4 D4 C5 E3 D5 A1 A2 C3 C1 A3 B1
+
+The current board:
+
+<1>   A  F  D  0  0  
+<2>   B  0  0  0  0  
+<3>   E  0  C  0  5  
+<4>   0  0  0  3  2  
+<5>   0  0  4  6  1  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+generate start: 
+piece_num=7, piece_value= 1
+piece_num=12, piece_value= 3
+piece_num=10, piece_value= 9
+piece_num=8, piece_value= 3
+piece_num=11, piece_value= 9
+piece_num=9, piece_value= 9
+piece_num=5, piece_value= 1
+piece_num=3, piece_value= 3
+piece_num=2, piece_value= 1
+piece_num=4, piece_value= 1
+piece_num=6, piece_value= 1
+piece_num=1, piece_value= 1
+----------7  12  10  0  0 -----
+----------8  0  0  0  0 -----
+----------11  0  9  0  5 -----
+----------0  0  0  3  2 -----
+----------0  0  4  6  1 -----
+init board done
+this color = 1
+start search
+start search dep = 0, lim = 1
+blue
+this->dice = 4
+this->dice exist 
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.666667, threaten = 1.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 3.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 34.000000, blue_a = 1.333333, threaten = 0.500000
+end search, score = -33.1667
+rand= 22  21  4
+my  = 22  21  4
+org(r,c) = (4,2), tar(r,c) = (4,1)
+============================
+My result:
+Blue piece 4: (C5) -> (B5)
+
+<1>   A  F  D  0  0  
+<2>   B  0  0  0  0  
+<3>   E  0  C  0  5  
+<4>   0  0  0  3  2  
+<5>   0  4  0  6  1  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+============================
+C5 B5
+get B 3 E5 E4 D4 B5 E3 D5 A1 A2 C3 C1 A3 C2
+
+The current board:
+
+<1>   A  0  D  0  0  
+<2>   B  0  F  0  0  
+<3>   E  0  C  0  5  
+<4>   0  0  0  3  2  
+<5>   0  4  0  6  1  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 6
+generate start: 
+piece_num=7, piece_value= 1
+piece_num=10, piece_value= 9
+piece_num=8, piece_value= 3
+piece_num=12, piece_value= 9
+piece_num=11, piece_value= 9
+piece_num=9, piece_value= 9
+piece_num=5, piece_value= 1
+piece_num=3, piece_value= 3
+piece_num=2, piece_value= 1
+piece_num=4, piece_value= 1
+piece_num=6, piece_value= 1
+piece_num=1, piece_value= 1
+----------7  0  10  0  0 -----
+----------8  0  12  0  0 -----
+----------11  0  9  0  5 -----
+----------0  0  0  3  2 -----
+----------0  4  0  6  1 -----
+init board done
+this color = 1
+start search
+start search dep = 0, lim = 1
+blue
+this->dice = 3
+this->dice exist 
+--------eateateateateateat---9
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 9.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 9.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 2.333333, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 9.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 9.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 2.333333, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 9.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 9.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 2.333333, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 9.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 9.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 2.333333, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 9.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 9.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 2.333333, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 9.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 9.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 2.333333, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 1.000000, piece value i = 7, v = 1.000000
+red pro = 1.000000, piece value i = 8, v = 3.000000
+red pro = 1.000000, piece value i = 9, v = 9.000000
+red pro = 1.000000, piece value i = 10, v = 9.000000
+red pro = 1.000000, piece value i = 11, v = 9.000000
+red pro = 1.000000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 3.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 40.000000, blue_a = 1.333333, threaten = 0.500000
+end search, score = -15.5
+rand= 18  12  3
+my  = 18  12  3
+org(r,c) = (3,3), tar(r,c) = (2,2)
+============================
+My result:
+Blue piece 3: (D4) -> (C3)
+
+<1>   A  0  D  0  0  
+<2>   B  0  F  0  0  
+<3>   E  0  3  0  5  
+<4>   0  0  0  0  2  
+<5>   0  4  0  6  1  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+============================
+D4 C3
+get B 4 E5 E4 C3 B5 E3 D5 A1 A2 0 C1 B4 C2
+
+The current board:
+
+<1>   A  0  D  0  0  
+<2>   B  0  F  0  0  
+<3>   0  0  3  0  5  
+<4>   0  E  0  0  2  
+<5>   0  4  0  6  1  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 5
+generate start: 
+piece_num=7, piece_value= 1
+piece_num=10, piece_value= 9
+piece_num=8, piece_value= 3
+piece_num=12, piece_value= 9
+piece_num=3, piece_value= 9
+piece_num=5, piece_value= 1
+piece_num=11, piece_value= 27
+piece_num=2, piece_value= 1
+piece_num=4, piece_value= 1
+piece_num=6, piece_value= 1
+piece_num=1, piece_value= 1
+----------7  0  10  0  0 -----
+----------8  0  12  0  0 -----
+----------0  0  3  0  5 -----
+----------0  11  0  0  2 -----
+----------0  4  0  6  1 -----
+init board done
+this color = 1
+start search
+start search dep = 0, lim = 1
+blue
+this->dice = 4
+this->dice exist 
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.666667, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.666667, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.666667, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.666667, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.666667, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.666667, threaten = 1.500000
+--------eateateateateateat---11
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 27.000000
+red pro = 0.166667, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 8.833333, blue_a = 2.666667, threaten = 3.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 27.000000
+red pro = 0.166667, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 8.833333, blue_a = 2.666667, threaten = 3.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 27.000000
+red pro = 0.166667, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 8.833333, blue_a = 2.666667, threaten = 3.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 27.000000
+red pro = 0.166667, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 8.833333, blue_a = 2.666667, threaten = 3.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 27.000000
+red pro = 0.166667, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 8.833333, blue_a = 2.666667, threaten = 3.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 27.000000
+red pro = 0.166667, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 8.833333, blue_a = 2.666667, threaten = 3.000000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.333333, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.333333, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.333333, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.333333, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.333333, threaten = 1.500000
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.500000, piece value i = 10, v = 9.000000
+red pro = 0.500000, piece value i = 11, v = 27.000000
+red pro = 0.500000, piece value i = 12, v = 9.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 1.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 23.833333, blue_a = 2.333333, threaten = 1.500000
+end search, score = -9.16667
+rand= 21  16  4
+my  = 21  16  4
+org(r,c) = (4,1), tar(r,c) = (3,1)
+============================
+My result:
+Blue piece 4: (B5) -> (B4)
+
+<1>   A  0  D  0  0  
+<2>   B  0  F  0  0  
+<3>   0  0  3  0  5  
+<4>   0  4  0  0  2  
+<5>   0  0  0  6  1  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 4
+============================
+B5 B4
+get B 3 E5 E4 C3 B4 E3 D5 A1 A2 0 C1 0 D3
+
+The current board:
+
+<1>   A  0  D  0  0  
+<2>   B  0  0  0  0  
+<3>   0  0  3  F  5  
+<4>   0  4  0  0  2  
+<5>   0  0  0  6  1  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 4
+generate start: 
+piece_num=7, piece_value= 1
+piece_num=10, piece_value= 9
+piece_num=8, piece_value= 3
+piece_num=3, piece_value= 9
+piece_num=12, piece_value= 27
+piece_num=5, piece_value= 1
+piece_num=4, piece_value= 3
+piece_num=2, piece_value= 1
+piece_num=6, piece_value= 1
+piece_num=1, piece_value= 1
+----------7  0  10  0  0 -----
+----------8  0  0  0  0 -----
+----------0  0  3  12  5 -----
+----------0  4  0  0  2 -----
+----------0  0  0  6  1 -----
+init board done
+this color = 1
+start search
+start search dep = 0, lim = 1
+blue
+this->dice = 3
+this->dice exist 
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 5.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 5.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 5.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 5.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 5.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 5.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 3.333333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 3.333333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 3.333333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 3.333333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 3.333333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 27.000000
+blue pro = 0.166667, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 1.000000
+blue pro = 0.166667, piece value i = 3, v = 9.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 7.333333, blue_a = 2.666667, threaten = 3.333333
+end search, score = -6.5
+rand= 12  6  3
+my  = 12  6  3
+org(r,c) = (2,2), tar(r,c) = (1,1)
+============================
+My result:
+Blue piece 3: (C3) -> (B2)
+
+<1>   A  0  D  0  0  
+<2>   B  3  0  0  0  
+<3>   0  0  0  F  5  
+<4>   0  4  0  0  2  
+<5>   0  0  0  6  1  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 6
+The number of red pieces: 4
+============================
+C3 B2
+get B 6 E5 0 B2 B4 E3 D5 A1 A2 0 C1 0 E4
+
+The current board:
+
+<1>   A  0  D  0  0  
+<2>   B  3  0  0  0  
+<3>   0  0  0  0  5  
+<4>   0  4  0  0  F  
+<5>   0  0  0  6  1  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 5
+The number of red pieces: 4
+generate start: 
+piece_num=7, piece_value= 1
+piece_num=10, piece_value= 9
+piece_num=8, piece_value= 3
+piece_num=3, piece_value= 27
+piece_num=5, piece_value= 1
+piece_num=4, piece_value= 3
+piece_num=12, piece_value= 81
+piece_num=6, piece_value= 1
+piece_num=1, piece_value= 1
+----------7  0  10  0  0 -----
+----------8  3  0  0  0 -----
+----------0  0  0  0  5 -----
+----------0  4  0  0  12 -----
+----------0  0  0  6  1 -----
+init board done
+this color = 1
+start search
+start search dep = 0, lim = 1
+blue
+this->dice = 6
+this->dice exist 
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 3.000000
+evaluate red_a = 16.333333, blue_a = 10.500000, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 10.166667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 10.166667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 10.166667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 10.166667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 10.166667, threaten = 4.833333
+start search dep = 1, lim = 1
+depth limit! 
+start evaluate: 
+red pro = 0.333333, piece value i = 7, v = 1.000000
+red pro = 0.333333, piece value i = 8, v = 3.000000
+red pro = 0.166667, piece value i = 9, v = 0.000000
+red pro = 0.166667, piece value i = 10, v = 9.000000
+red pro = 0.166667, piece value i = 11, v = 0.000000
+red pro = 0.166667, piece value i = 12, v = 81.000000
+blue pro = 0.333333, piece value i = 1, v = 1.000000
+blue pro = 0.166667, piece value i = 2, v = 0.000000
+blue pro = 0.333333, piece value i = 3, v = 27.000000
+blue pro = 0.166667, piece value i = 4, v = 3.000000
+blue pro = 0.166667, piece value i = 5, v = 1.000000
+blue pro = 0.166667, piece value i = 6, v = 1.000000
+evaluate red_a = 16.333333, blue_a = 10.166667, threaten = 4.833333
+end search, score = -10.6667
+rand= 23  18  6
+my  = 23  17  6
+org(r,c) = (4,3), tar(r,c) = (3,2)
+============================
+My result:
+Blue piece 6: (D5) -> (C4)
+
+<1>   A  0  D  0  0  
+<2>   B  3  0  0  0  
+<3>   0  0  0  0  5  
+<4>   0  4  6  0  F  
+<5>   0  0  0  0  1  
+
+     <A><B><C><D><E>
+
+The number of blue pieces: 5
+The number of red pieces: 4
+============================
+D5 C4
+exit
+
+###
